@@ -345,7 +345,7 @@ const customLogin = (
   const top = (window.innerHeight - height) / 2;
 
   const handler = window.open(
-    `${serverUrl}/oauth?type=google&redirect=/ui/profile`,
+    `${serverUrl}/api/oauth?type=google&redirect=/ui/profile`,
     '_blank',
     `width=${width},height=${height},left=${left},top=${top},scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no`,
   );
