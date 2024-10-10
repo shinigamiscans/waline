@@ -1,0 +1,9 @@
+__test__/
+src/
+template/
+.env
+pnpm-lock.yaml
+rollup.config.ts
+tsconfig.base.json
+tsconfig.json
+vite.config.ts

@@ -1,5 +1,5 @@
 const path = require('node:path');
-
+require('dotenv').config();
 const Application = require('thinkjs');
 
 const instance = new Application({
